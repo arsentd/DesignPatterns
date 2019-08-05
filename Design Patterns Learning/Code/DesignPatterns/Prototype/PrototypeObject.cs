@@ -1,10 +1,10 @@
 ﻿namespace Prototype
 {
-    public abstract class PrototypeObject
+    public class PrototypeObject : Prototype
     {
-        public abstract PrototypeObject Clone();
-
-        // additional
-        public string Name = "Some Name";
+        public override Prototype Clone()
+        {
+            return (Prototype)MemberwiseClone();
+        }
     }
 }

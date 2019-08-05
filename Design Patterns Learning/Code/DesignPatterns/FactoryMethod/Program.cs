@@ -20,8 +20,8 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            var creators = new CreatorObject[1];
-            creators[0] = new CreatorImplementation();
+            var creators = new Creator[1];
+            creators[0] = new CreatorObject();
 
             foreach (var creator in creators)
             {

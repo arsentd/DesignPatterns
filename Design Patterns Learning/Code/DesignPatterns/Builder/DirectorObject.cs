@@ -2,7 +2,7 @@
 {
     public class DirectorObject
     {
-        public void Construct(BuilderObject builder)
+        public void Construct(Builder builder)
         {
             builder.Build();
         }

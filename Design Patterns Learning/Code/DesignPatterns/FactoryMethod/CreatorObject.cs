@@ -1,7 +1,10 @@
 ﻿namespace FactoryMethod
 {
-    public abstract class CreatorObject
+    public class CreatorObject : Creator
     {
-        public abstract ProductObject FactoryMethod();
+        public override Product FactoryMethod()
+        {
+            return new ProductObject();
+        }
     }
 }

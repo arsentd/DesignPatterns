@@ -1,6 +1,6 @@
 ﻿namespace AbstractFactory
 {
-    public abstract class AbstractProduct
+    public class ProductObject : Product
     {
     }
 }

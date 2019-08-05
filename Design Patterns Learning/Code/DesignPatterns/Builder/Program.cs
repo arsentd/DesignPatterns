@@ -19,9 +19,10 @@ namespace Builder
         {
             var director = new DirectorObject();
 
-            var builder = new BuilderImplementation();
+            var builder = new BuilderObject();
 
             director.Construct(builder);
+
             var product = builder.GetResult();
             product.Show();
         }

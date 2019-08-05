@@ -44,10 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory.cs" />
-    <Compile Include="AbstractFactoryImplementation.cs" />
-    <Compile Include="AbstractProduct.cs" />
-    <Compile Include="Client.cs" />
+    <Compile Include="AbstractFactoryObject.cs" />
     <Compile Include="Product.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ProductObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,8 +1,17 @@
 ﻿namespace Builder
 {
-    public abstract class BuilderObject
+    public class BuilderObject : Builder
     {
-        public abstract void Build();
-        public abstract ProductObject GetResult();
+        private ProductObject _product = new ProductObject();
+
+        public override void Build()
+        {
+            _product.Add();
+        }
+
+        public override ProductObject GetResult()
+        {
+            return _product;
+        }
     }
 }

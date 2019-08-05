@@ -15,7 +15,7 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
-            var factory = new AbstractFactoryImplementation();
+            var factory = new AbstractFactoryObject();
             var client = new Client(factory);
             client.Run();
         }

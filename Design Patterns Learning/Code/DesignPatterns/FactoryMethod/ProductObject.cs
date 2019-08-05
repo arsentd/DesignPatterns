@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod
 {
-    public abstract class ProductObject
+    public class ProductObject : Product
     {
     }
 }

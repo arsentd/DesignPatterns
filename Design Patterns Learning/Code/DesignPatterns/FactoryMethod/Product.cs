@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory
+﻿namespace FactoryMethod
 {
     public abstract class Product
     {

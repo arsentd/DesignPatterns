@@ -2,7 +2,7 @@
 {
     public class Client
     {
-        private AbstractProduct _abstractProduct;
+        private Product _abstractProduct;
 
         public Client(AbstractFactory factory)
         {

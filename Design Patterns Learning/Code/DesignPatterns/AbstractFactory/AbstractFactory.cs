@@ -2,6 +2,6 @@
 {
     public abstract class AbstractFactory
     {
-        public abstract AbstractProduct CreateProduct();
+        public abstract Product CreateProduct();
     }
 }

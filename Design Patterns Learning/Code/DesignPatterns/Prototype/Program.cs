@@ -18,7 +18,7 @@ namespace Prototype
     {
         static void Main(string[] args)
         {
-            var myObj = new PrototypeImplementation();
+            var myObj = new PrototypeObject();
 
             var myObj2 = myObj.Clone();
 

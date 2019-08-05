@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuilderImplementation.cs" />
     <Compile Include="BuilderObject.cs" />
+    <Compile Include="Builder.cs" />
     <Compile Include="DirectorObject.cs" />
     <Compile Include="ProductObject.cs" />
     <Compile Include="Program.cs" />
